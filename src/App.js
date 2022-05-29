@@ -15,6 +15,7 @@ function App() {
   
   return (
     <div className="App">
+      <h1>Select the item in the below dropdown</h1>
       <Select
         defaultValue={selectedOption}
         onChange={setSelectedOption}
