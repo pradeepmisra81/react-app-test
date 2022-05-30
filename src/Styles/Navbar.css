@@ -14,14 +14,23 @@
 }
 
 .navbar a {
-  background-color: white;
+  color: white;
   font-size: 25px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
 }
 
+.navbar .link {
+  margin-right: 50px;
+}
+
 .navbar body {
   font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
 }
 /*# sourceMappingURL=Navbar.css.map */

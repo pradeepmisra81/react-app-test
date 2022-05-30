@@ -10,13 +10,22 @@
 }
 
 .navbar a {
-  background-color: $customWhiteColor;
+  color: $customWhiteColor;
   font-size: 25px;
   text-decoration: none;
   font-family: $titleFont;
   margin: 10px;
 }
 
+.navbar .link {
+  margin-right: 50px;
+}
+
 .navbar body {
   font-family: $bodyFont;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
 }
