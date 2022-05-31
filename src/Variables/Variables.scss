@@ -1,8 +1,22 @@
 $customBlackColor: rgb(24, 24, 24);
 $customWhiteColor: rgb(255, 255, 255);
 $customRedColor: rgb(137, 4, 4);
-$customGreenColore: rgb(1, 49, 1);
+$customGreenColor: rgb(1, 49, 1);
+$customeBlueColor: rgb(6, 6, 178);
+$customPurpleColor: rgb(110, 9, 110);
 
 // fonts
 $titleFont: Arial, Helvetica, sans-serif;
 $bodyFont: "Times New Roman", Times, serif;
+
+// mixin
+
+@mixin buttonStyle($color, $fontsize) {
+  width: 120px;
+  height: 50px;
+  background-color: $customPurpleColor;
+  border: 1px solid $customeBlueColor;
+  border-radius: 8px;
+  color: $color;
+  font-size: $fontsize;
+}
