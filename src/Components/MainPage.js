@@ -6,6 +6,7 @@ const MainPage = () => {
   return (
     <div className="mainPage">
       <h1>Welcome to the XYZ Technologies !!</h1>
+      <button>Click Me</button>
     </div>
   )
 }

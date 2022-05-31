@@ -1,5 +1,15 @@
 @import "../Variables/Variables.scss";
 
+@mixin buttonStyle {
+  width: 120px;
+  height: 50px;
+  background-color: $customGreenColore;
+  border: 1px solid $customBlackColor;
+  border-radius: 8px;
+  color: $customWhiteColor;
+  font-size: 25px;
+}
+
 .mainPage {
   display: flex;
   justify-content: center;
@@ -7,5 +17,9 @@
 
   h1 {
     color: $customRedColor;
+  }
+
+  button {
+    @include buttonStyle();
   }
 }
