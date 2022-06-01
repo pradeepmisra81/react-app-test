@@ -2,25 +2,43 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .mainPage h1 {
   color: #890404;
 }
 
+.mainPage h1,
+.mainPage h2,
+.mainPage h3,
+.mainPage .answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .mainPage button {
-  width: 120px;
-  height: 50px;
+  width: 60px;
+  height: 40px;
   background-color: #6e096e;
   border: 1px solid #0606b2;
   border-radius: 8px;
   color: white;
   font-size: 25px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=MainPage.css.map */

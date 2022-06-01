@@ -2,11 +2,20 @@
 
 .mainPage {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: left;
 
   h1 {
     color: $customRedColor;
+  }
+
+  h1,
+  h2,
+  h3,
+  .answer {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
   }
 
   button {

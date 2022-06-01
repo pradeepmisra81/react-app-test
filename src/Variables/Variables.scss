@@ -12,11 +12,12 @@ $bodyFont: "Times New Roman", Times, serif;
 // mixin
 
 @mixin buttonStyle($color, $fontsize) {
-  width: 120px;
-  height: 50px;
+  width: 60px;
+  height: 40px;
   background-color: $customPurpleColor;
   border: 1px solid $customeBlueColor;
   border-radius: 8px;
   color: $color;
   font-size: $fontsize;
+  align-items: flex-end;
 }
