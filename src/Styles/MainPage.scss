@@ -13,9 +13,10 @@
   h2,
   h3,
   .answer {
+    color: $customBlackColor;
     display: flex;
-    justify-content: left;
     align-items: flex-start;
+    justify-content: left;
   }
 
   button {
