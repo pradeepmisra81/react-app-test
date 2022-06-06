@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
@@ -9,6 +14,7 @@ body {
 }
 
 .product-title {
+  margin-top: 10px;
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
@@ -21,6 +27,15 @@ body {
 }
 
 .shipping {
+  border: 0px dotted red;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
@@ -49,6 +64,7 @@ body {
 
 /* BUTTON */
 .add-cart {
+  margin-top: 10px;
   background-color: #000;
   border: none;
   color: #fff;
