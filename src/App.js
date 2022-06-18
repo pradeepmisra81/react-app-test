@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+
 import './App.css';
-import Header from './Header';
+
+const OtherComponent = React.lazy(() => import('./Header'));
+
 
 const App = () => {
 
   return (
     <div className="App">
-      <Header favcol="yellow" />
+      <Suspense fallback={<div> Loading...</div>}>
+        <OtherComponent />
+
+      </Suspense>
+
     </div>
   );
 }
